@@ -4,7 +4,6 @@ class Song
   @@all = []
   
   def initialize
-    binding.pry
     @title = title
     @artist = artist
   end
